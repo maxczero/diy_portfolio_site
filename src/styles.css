@@ -5,48 +5,85 @@ body {
     background-color: black;
     min-width: 960px;
     max-width: 1000px;
+    min-height: 640px;
+    max-height: 1440px;
     border-style: solid;
     border-color: #FFE664;
-    position: sticky;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 header {
-    position: static;
-    max-width: 100%;
+    padding: 0% 2%;
+    max-width: 25%;
+    min-height: 640px;
+    max-height: 1440px;
+    border-style: solid;
+    border-color: #FFE664;
+    border-width: 1px;
+    float: left;
+}
+
+main {
+    width: 50%;
+    float: right;
+    border-style: solid;
+    border-color: #FFE664;
+}
+
+.bio {
+    height: 100px;
+    width: 100px;
+    border-radius: 100% 100%;
+    background-image: url(./resources/images/biopic_small.jpg);
+    background-clip: border-box;
+    background-position-x: center;
+    background-position-y: center;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin-left: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 header nav {
     position: static;
     max-width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2em;
 }
 
 header nav ul{
-    display: block;
+    display: inline-block;
     list-style-type: none;
     padding: 0px;
     margin-top: 0px;
 }
 
 header nav ul li {
-    border-width: 1px;
-    border-style: solid;
-    /*todo list item center*/
+    height: 31.33%;
+    padding-top: 20%;
 }
 
-.nav_item {
-    margin-left: auto;
-    margin-right: auto;
+.menu_item {
+    background-color: black;
+    border-color: #FFE664;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
 }
 
 .contact_icons {
     padding: 0px;
 }
 
-.contact_icons li{
+.contact_icons li { 
     display: inline;
-    border-style: none;
 }
 
 .contact_icon {
@@ -54,4 +91,8 @@ header nav ul li {
     border-color: black;
     border-width: 0px;
     padding: 0px;
+}
+
+.scrollbox {
+    float: right;
 }
