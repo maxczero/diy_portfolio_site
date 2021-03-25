@@ -16,87 +16,61 @@
                 </p>
             </article>
             <nav>
-                <ul>
-                    <li>
-                        <button class="menu_item">
-                            <a href="">Work</a>
-                        </button>
-                    </li>
-                    <li>
-                        <button class="menu_item">
-                            <a href="">Resume</a></li>
-                        </button>
-                    <li>
-                        <ul class="contact_icons">
-                            <li>
-                                <button class="contact_icon">
-                                    <a href="https://soundcloud.com/maxczero">
-                                        <img src="resources/icons/icon.svg" alt="soundcloud">
-                                    </a>
-                                </button>
-                            </li>
-                            <li>
-                                <button class="contact_icon">
-                                    <a href="mailto:mwc349@nyu.edu">
-                                        <img alt="email" src="resources/icons/icon-1.svg">
-                                    </a>
-                                </button>                                
-                            </li>
-                            <li>
-                                <button class="contact_icon">
-                                    <a href="https://instagram.com/pisceanmalodymatrix">
-                                        <img alt="instagram" src="resources/icons/icon-2.svg">
-                                    </a>
-                                </button>
-                            </li>
-                            <li>
-                                <button class="contact_icon">
-                                    <a href="https://www.linkedin.com/in/max-chidzero/">
-                                        <img alt="linked in" src="resources/icons/icon-3.svg">
-                                    </a>
-                                </button>
-                            </li>
-                            <li>
-                                <button class="contact_icon">
-                                    <a href="https://www.youtube.com/channel/UCkQH1KhoufIXlTGxBAMdxDg/featured">
-                                        <img alt="youtube" src="resources/icons/icon-4.svg">
-                                    </a>
-                                </button>
-                            </li>
-                            <li>
-                                <button class="contact_icon">
-                                    <a href="https://github.com/maxczero">
-                                        <img alt="github" src="resources/icons/icon-5.svg">
-                                    </a>
-                                </button>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                <button>
+                    <a href="">Work</a>
+                </button>
+                <button>
+                    <a href="">Resume</a>
+                </button>
             </nav>
+            <address>
+                <div>
+                    <button class="contact_icon">
+                        <a href="https://soundcloud.com/maxczero">
+                            <img src="resources/icons/icon.svg" alt="soundcloud">
+                        </a>
+                    </button>
+                    <button class="contact_icon">
+                        <a href="mailto:mwc349@nyu.edu">
+                            <img alt="email" src="resources/icons/icon-1.svg">
+                        </a>
+                    </button>                                
+                    <button class="contact_icon">
+                        <a href="https://instagram.com/pisceanmalodymatrix">
+                            <img alt="instagram" src="resources/icons/icon-2.svg">
+                        </a>
+                    </button>
+                    <button class="contact_icon">
+                        <a href="https://www.linkedin.com/in/max-chidzero/">
+                            <img alt="linked in" src="resources/icons/icon-3.svg">
+                        </a>
+                    </button>
+                    <button class="contact_icon">
+                        <a href="https://www.youtube.com/channel/UCkQH1KhoufIXlTGxBAMdxDg/featured">
+                            <img alt="youtube" src="resources/icons/icon-4.svg">
+                        </a>
+                    </button>
+                    <button class="contact_icon">
+                        <a href="https://github.com/maxczero">
+                            <img alt="github" src="resources/icons/icon-5.svg">
+                        </a>
+                    </button>
+                </div>
+            </address>
+            <p id="copyright">
+                © Designed by Max Chidzero
+            </p>
         </header>
         <main>
-            <div class="scrollbox">
-                <!-- TODO: build script to render data from .md files in article previews -->
-                <article class="preview">
-                    <header id="articleheader">
-                        <h2><span class="preveiw_title">Title</span><h2>
-                        <time datetime="2021-03-25">March 2021</time>
-                    </header>
-                    <p>
-                        <span class="preview_markdown">
-                            This is a text preview of the beginning content of the associated article or .md post.
-                        </span>
-                    </p>
-                    <footer>
-                        <a class="article_link" href="">Read</a>
-                    </footer>
-                </article>
-            </div>
+           <!-- TODO:   - add span or embedded media element with media type (text/markdown; 
+                        variant=CommonMark) element that depicts .md files for resume
+                        and work. 
+
+                        - add pagination to work i.e use a script and buttons to allow several 
+                            articles to be read.
+            -->
+            <embed id="markdown" type="text/markdown" variant=CommonMark src="resources/articles/resume.md">
         </main>
-        <footer>
-            
-        </footer>
     </body>
     
 </html>
