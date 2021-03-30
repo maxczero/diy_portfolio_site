@@ -120,6 +120,42 @@ address div button {
     border-color: black;
     border-width: 0px;
     padding: 0px;
+    border-radius: 30%; 
+    justify-content: center;
+    align-content: center;
+}
+
+.contact_icon:hover  {
+    background-color: #FFE664;
+}
+
+.contact_icon a img {
+    position: relative;
+    padding-top: 0.2em;
+}
+
+#ci:hover {
+    content: url(./resources/icons/icon\ copy.svg);
+}
+
+#ci1:hover {
+    content: url(./resources/icons/icon-1\ copy.svg);
+}
+
+#ci2:hover {
+    content: url(./resources/icons/icon-2\ copy.svg);
+}
+
+#ci3:hover {
+    content: url(./resources/icons/icon-3\ copy.svg);
+}
+
+#ci4:hover {
+    content: url(./resources/icons/icon-4\ copy.svg);
+}
+
+#ci5:hover {
+    content: url(./resources/icons/icon-5\ copy.svg);
 }
 
 #copyright {
@@ -131,11 +167,52 @@ address div button {
 
 main {
     margin-left: 0px;
-    border-left: #FFE664 1px solid;;
+    border-left: #FFE664 1px solid;
     overflow-y: scroll;
     min-height: 640px;
     max-height: 1440px;
 }
+
+.paginator {
+    margin-left: 0px;
+    border-top: #FFE664 1px solid;
+    position: fixed;
+    top: 39em;
+    width: 52%;
+}
+
+.paginator #page_left {
+    background-color: black;
+    border-color: black;
+    border-width: 0px;
+    float:left;
+    margin-top: 0.2em;
+    margin-left: 0.2em;
+    color: #FFE459;
+}
+
+.paginator #page_left:hover {
+    text-decoration: underline;
+    background-color: #FFE459;
+    color: black;
+}
+
+.paginator #page_right {
+    background-color: black;
+    border-color: black;
+    border-width: 0px;
+    float:right;
+    margin-top: 0.2em;
+    margin-right: 0.2em;
+    color: #FFE459;
+}
+
+.paginator #page_right:hover {
+    text-decoration: underline;
+    background-color: #FFE459;
+    color: black;
+}
+
 
 .scrollbox {
     float: right;
